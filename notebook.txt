@@ -1,0 +1,19 @@
+const square = (a) => {
+    return a*a;
+}
+A new way to write function
+const square = a => a*a;
+[1, 2, 3].map(a => a*a); // return (1, 4, 9)
+const PI = 3.14;
+const sum = (a,b) => a+b;
+const square = a => a*a;
+const X = {
+    PI: PI;
+    sum: sum
+    square: square
+}
+//Access it outside by
+X.PI;
+var square = X.square;
+const { square } = X;
+const {PI, sum, square } = X;

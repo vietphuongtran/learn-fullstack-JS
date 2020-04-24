@@ -1,0 +1,9 @@
+<!--We can create a separate header and include it in any file with the include syntax-->
+<%- include('header') -%>
+        <h1>This is an EJS file</h1>
+        <div>This is an HTML line</div>
+        <div>Today is <%= new Date(); %></div>
+        <div><%= content %></div>
+        <div><%- anotherContent %></div>
+<!--Same thing for footer-->
+<%- include('footer') -%>

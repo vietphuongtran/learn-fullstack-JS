@@ -17,3 +17,23 @@ X.PI;
 var square = X.square;
 const { square } = X;
 const {PI, sum, square } = X;
+
+2) Setting up projects
+- npm install express: to install express
+- npm install mongodb: for database usage
+- npm install react react-dom: for react usage
+- npm i -D webpack webpack -cli 
+- npm i -D babel-loader @babel/node @babel/core @babel/preset-env @babel/preset-react @babel/plugin-proposal-class-properties: load in browser
+- npm i -D nodemon: load change without restarting
+- npm i -D eslint babel-eslint eslint-plugin-react: quality check
+- npm i prop-types: react package
+
+3) Project structure
+- mkdir src: create src folder
+- mkdir public: create public folder
+- mkdir api: create api folder
+- call > src/index.js, call > public/index.html, call > api/index.js: create index file
+- Configure the script in package.json
+- Add webpack.config.js
+- Add babel.config.js
+- Add .eslintrc.js
